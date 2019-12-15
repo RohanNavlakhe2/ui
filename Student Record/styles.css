@@ -1,0 +1,35 @@
+section{
+    background: url("img/pencil.jpg");
+    background-size: cover;
+    padding-bottom: 10px;
+}
+form{
+    position: relative;
+    margin: auto auto 50px;
+    border: 1px solid white;
+    top: 30px;
+    border-radius: 15px;
+}
+form .form-group .form-control{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+form .form-group .form-control option{
+    color: black;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+table thead tr th{
+    font-size: 22px;
+}
+table tbody tr td{
+    font-size: 20px;
+}
+
+.bg-tbody {
+    background-color: #4fc3f7  ; }

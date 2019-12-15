@@ -1,0 +1,23 @@
+body{
+    background: url("drum.jpg");
+    background-size:  cover;
+}
+.row{
+    margin-top: 300px;
+}
+article{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 25px;
+    width: 90px;
+    padding: 10px 10px;
+    font-size: 22px;
+}
+h6{
+    font-weight: bold;
+    color: orange;
+}

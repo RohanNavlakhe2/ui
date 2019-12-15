@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Record</title>
+</head>
+<body>
+
+ <section>
+<form class="w-25 p-4">
+    <div class="form-group">
+        <label>Student Name</label>
+        <input type="text" class="form-control  form-control-lg" id="name">
+    </div>
+
+    <div class="form-group">
+        <label >Date of Joining </label>
+        <input type="date" class="form-control form-control-lg" id="date">
+    </div>
+
+    <div class="form-group">
+
+        <label>Course </label>
+            <select class="form-control  form-control-lg" id="feeSelectBox">
+                <option>Select Your Course</option>
+                <option value="0">C</option>
+                <option value="1">C++</option>
+                <option value="2">Java</option>
+                <option value="3">Python</option>
+                <option value="4">Php</option>
+                <option value="5">Aws</option>
+                <option value="6">UI Technologies</option>
+                <option value="7">Design Pattern</option>
+            </select>
+
+        </div>
+
+
+
+    <div class="form-group">
+        <label>Course Fee</label>
+        <input type="number" class="form-control form-control-lg" id="feeDisplayBox" readonly>
+    </div>
+
+</form>
+  <button class="btn btn-danger w-25 font-weight-bold m-auto d-block"
+        id="register">
+    Register</button>
+
+ </section>
+
+<table class="table table-bordered m-3 bg-primary text-white text-center">
+ <thead>
+   <tr>
+
+       <th>Name</th>
+       <th>Course</th>
+       <th>Fee</th>
+       <th>Date Of Joining</th>
+       <th></th>
+   </tr>
+ </thead>
+    <tbody id="tbody" class="bg-tbody">
+
+    </tbody>
+
+</table>
+
+<script src="bootstrap/js/jquery-3.4.0.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/mdb.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

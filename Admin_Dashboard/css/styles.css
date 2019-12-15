@@ -1,0 +1,10 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+	font-size: 18px;
+    margin: 0;
+}
+@media (max-width: 576px) {
+    .rightul{
+        display: none;
+    }
+}
